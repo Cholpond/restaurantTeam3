@@ -14,13 +14,15 @@
 .priceAndName{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;  
-    text-decoration:double  
+    justify-content:space-between;  
+    
 }
+
 
 
 .img{
     width: 147.25px;
+    height: 99px;
     border-radius: 10px;
     border: solid 3px rgb(171, 111, 89);
     object-fit: fill;
@@ -62,8 +64,9 @@ h1{
     display: flex;
     flex-direction: row;
 }
-h5{
+.priceAndName h5{
     letter-spacing: 3px;
+   margin: 10px 160px;
     
     
 }
