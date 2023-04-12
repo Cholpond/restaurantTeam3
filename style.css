@@ -14,10 +14,8 @@
 .priceAndName{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    margin: 12px -250px  15px 
-    
-   
+    justify-content:flex-end;  
+    text-decoration:double  
 }
 
 
@@ -33,6 +31,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 25px;
+    gap: 10px;
 }
 .btns{
     border: burlywood solid 2px;
@@ -64,7 +63,8 @@ h1{
     flex-direction: row;
 }
 h5{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    
     
 }
 .price{
